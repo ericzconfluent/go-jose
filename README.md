@@ -1,0 +1,1 @@
+fixed version of square's go-jose 2.3.1
