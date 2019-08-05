@@ -252,7 +252,7 @@ func parseSignedCompact(input string) (*JSONWebSignature, error) {
 		return nil, fmt.Errorf("square/go-jose: compact JWS format must have three parts")
 	}
 
-	rawProtected, err := base64.StdEncoding.DecodeString(parts[0])
+	rawProtected, err := base64.RawURLEncoding.DecodeString(parts[0])
 	if err != nil {
 		return nil, err
 	}
@@ -262,7 +262,7 @@ func parseSignedCompact(input string) (*JSONWebSignature, error) {
 		return nil, err
 	}
 
-	signature, err := base64.StdEncoding.DecodeString(parts[2])
+	signature, err := base64.RawURLEncoding.DecodeString(parts[2])
 	if err != nil {
 		return nil, err
 	}

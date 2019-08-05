@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4040b1ca-acb3-4687-ba91-b25dbed0d13a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asymmetric.go" beforeDir="false" afterPath="$PROJECT_DIR$/asymmetric.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypter.go" beforeDir="false" afterPath="$PROJECT_DIR$/crypter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptosigner/cryptosigner.go" beforeDir="false" afterPath="$PROJECT_DIR$/cryptosigner/cryptosigner.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptosigner/cryptosigner_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cryptosigner/cryptosigner_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoding.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoding.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jose-util/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jose-util/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jose-util/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/jose-util/utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwe.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwk-keygen/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwk-keygen/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwk.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwk.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwk_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwk_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/builder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/builder_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/builder_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/claims.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/claims.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/claims_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/claims_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/example_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/jwt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt/jwt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/jwt_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared.go" beforeDir="false" afterPath="$PROJECT_DIR$/shared.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/signing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/signing_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symmetric.go" beforeDir="false" afterPath="$PROJECT_DIR$/symmetric.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jws.go" beforeDir="false" afterPath="$PROJECT_DIR$/jws.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +12,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jws.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="264" column="35" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#611#762#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -51,9 +56,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jws.go" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/signing.go" />
+        <option value="$PROJECT_DIR$/jws.go" />
       </list>
     </option>
   </component>
@@ -68,8 +73,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-jose-2.3.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-jose-2.3.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -94,8 +109,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="790" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -130,17 +146,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/signing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="596">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#611#762#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jws.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        <state relative-caret-position="357">
+          <caret line="264" column="35" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
         </state>
       </provider>
     </entry>
